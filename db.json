@@ -31,14 +31,6 @@
             "price": 3000,
             "stock": 12,
             "description": "Nice CPU"
-        },
-        "328627": {
-            "category_id": "1",
-            "id": "328627",
-            "name": "CPU Intel Core i9-9100K",
-            "price": 2400,
-            "stock": 20,
-            "description": "Nice"
         }
     },
     "2": {

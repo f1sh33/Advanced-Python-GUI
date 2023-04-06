@@ -249,7 +249,7 @@ class Table(customtkinter.CTkFrame):
             price_col.grid(row=row_count, column=2, padx=5, pady=5, sticky="nsew")
             stock_col.grid(row=row_count, column=3, padx=5, pady=5, sticky="nsew")
             desc_col.grid(row=row_count, column=4, padx=5, pady=5, sticky="nsew")
-            actions_col.grid(row=row_count, column=5, sticky="nsew")
+            actions_col.grid(row=row_count, column=5, sticky="nsew", padx=4, pady=4)
 
             self.grid_rowconfigure(row_count, weight=1)
             row_count += 1
@@ -270,7 +270,7 @@ class Frame(customtkinter.CTkScrollableFrame):
         self.searchbar = customtkinter.CTkEntry(self, placeholder_text="Search", width=200, height=30)
         #self.searchbar.grid(row=0, column=0, sticky="w", padx=40)
 
-        self.internal = Table(self, ancestor=ancestor, name=name, fg_color="#212134")
+        self.internal = Table(self, ancestor=ancestor, name=name, fg_color="#212134", border_width=2)
         self.internal.grid(row=1, column=0, padx=40, pady=40,sticky="nsew")
 
 
