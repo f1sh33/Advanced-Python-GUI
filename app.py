@@ -17,7 +17,6 @@ class App(customtkinter.CTk):
         productPageInit.init(self, categories)
 
 
-
 if __name__ == "__main__":
     app = App()
     app.mainloop()
