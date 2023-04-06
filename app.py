@@ -5,6 +5,7 @@ from initialize import imageInit
 from initialize import navFrameInit
 from initialize import windowInit
 
+customtkinter.set_default_color_theme("theme.json")
 categories = ["CPU", "GPU", "PSU", "Ram", "Mainboards", "Fans", "Monitors", "SSD", "Peripherals"]
 
 class App(customtkinter.CTk):

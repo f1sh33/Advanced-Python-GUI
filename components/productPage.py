@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image
 import os
+from operations import create
 from operations import read
 from operations import update
 from operations import remove
@@ -15,6 +16,7 @@ categories = ["CPU", "GPU", "PSU", "Ram", "Mainboards", "Fans", "Monitors", "SSD
 class CreateWindow(customtkinter.CTkToplevel):
     def __init__(self, ancestor, name, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.title("Create a new product")
         self.geometry("470x400+%d+%d" % (1920/2 - 470/2, 1080/2 - 400/2))
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
@@ -67,10 +69,12 @@ class CreateWindow(customtkinter.CTkToplevel):
         desc = desc_input.get()
         created_data = {
             "name": prodcut_name,
-            "price": price,
-            "stock": stock,
-            "desc": desc
+            "price": int(price),
+            "stock": int(stock),
+            "description": desc,
+            "category_id": str(categories.index(name) + 1)
         }
+        create.create_data(created_data)
         self.reset(ancestor, name)
 
     def reset(self, root, name):
@@ -85,6 +89,7 @@ class CreateWindow(customtkinter.CTkToplevel):
 class EditWindow(customtkinter.CTkToplevel):
     def __init__(self, ancestor, name, data, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.title("Edit a product")
         self.geometry("470x400+%d+%d" % (1920/2 - 470/2, 1080/2 - 400/2))
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
@@ -237,7 +242,7 @@ class Table(customtkinter.CTkFrame):
             price_col = customtkinter.CTkLabel(self, text=data[i]['price'])
             stock_col = customtkinter.CTkLabel(self, text=data[i]['stock'])
             desc_col = customtkinter.CTkLabel(self, text=data[i]['description'])
-            actions_col = ButtonBox(self, ancestor=ancestor, name=name, data=data[i], fg_color="transparent")
+            actions_col = ButtonBox(self, ancestor=ancestor, name=name, data=data[i], fg_color="transparent", corner_radius=10)
 
             id_col.grid(row=row_count, column=0, padx=5, pady=5, sticky="nsew")
             name_col.grid(row=row_count, column=1, padx=5, pady=5, sticky="nsew")
@@ -265,7 +270,7 @@ class Frame(customtkinter.CTkScrollableFrame):
         self.searchbar = customtkinter.CTkEntry(self, placeholder_text="Search", width=200, height=30)
         #self.searchbar.grid(row=0, column=0, sticky="w", padx=40)
 
-        self.internal = Table(self, ancestor=ancestor, name=name, fg_color="transparent")
+        self.internal = Table(self, ancestor=ancestor, name=name, fg_color="#212134")
         self.internal.grid(row=1, column=0, padx=40, pady=40,sticky="nsew")
 
 
@@ -278,13 +283,13 @@ class ProductFrame(customtkinter.CTkFrame):
         self.columnconfigure(1, weight=1)
         self.rowconfigure(1, weight=1)
 
-        self.add_button = customtkinter.CTkButton(self, text=" Add new item", font=customtkinter.CTkFont(size=15, weight="normal"), 
+        self.add_button = customtkinter.CTkButton(self, text=" Add new item", width=30 , font=customtkinter.CTkFont(size=15, weight="normal"), 
                                                             image=plus_logo, compound="left", command=(lambda: self.open_create_window(ancestor=master, name=name)))
-        self.add_button.grid(row=0, column=1, padx=40, pady=40, sticky="e")
+        self.add_button.grid(row=0, column=1, padx=40, pady=40, ipadx=10, ipady=3, sticky="e")
         self.label = customtkinter.CTkLabel(self, text=name, font=customtkinter.CTkFont(size=35, weight="bold"))
         self.label.grid(row=0, column=0, padx=40, pady=(20, 10), sticky="w")
 
-        self.frame = Frame(master=self, ancestor=master, name=name, corner_radius=0, fg_color="transparent")
+        self.frame = Frame(master=self, ancestor=master, name=name, corner_radius=10, fg_color="transparent")
         self.frame.grid(row=1, column=0, sticky="nsew", columnspan=2, rowspan=2)
         
         self.create_window = None
@@ -297,5 +302,5 @@ class ProductFrame(customtkinter.CTkFrame):
 
 
 def create_page(parent, name):
-    origin_frame = ProductFrame(parent, name, corner_radius=0, fg_color="transparent")
+    origin_frame = ProductFrame(parent, name, corner_radius=0, fg_color="#181826")
     return origin_frame

@@ -5,4 +5,4 @@ def init(parent, categories):
         attr_name = "nav_button_" + category
         setattr(parent, attr_name, navButton.create_button(parent, category))
         getattr(parent, attr_name).grid(row=index+1, column=0, sticky="ew")
-    parent.nav_button_CPU.configure(fg_color=("gray75", "gray25"))
+    parent.nav_button_CPU.configure(fg_color="#181826", text_color="#7977fc")

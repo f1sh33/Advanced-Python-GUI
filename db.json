@@ -23,6 +23,22 @@
             "description": "2.90GHz Turbo Up To 4.30GHz, 6 Core 12 Thread",
             "id": "318306",
             "category_id": "1"
+        },
+        "307001": {
+            "category_id": "1",
+            "id": "307001",
+            "name": "Intel Core i5",
+            "price": 3000,
+            "stock": 12,
+            "description": "Nice CPU"
+        },
+        "328627": {
+            "category_id": "1",
+            "id": "328627",
+            "name": "CPU Intel Core i9-9100K",
+            "price": 2400,
+            "stock": 20,
+            "description": "Nice"
         }
     },
     "2": {
