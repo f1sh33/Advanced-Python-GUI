@@ -1,8 +1,8 @@
 {
     "1": {
         "394675": {
-            "name": "CPU Intel Core i7 10700 NR",
-            "price": 11500000,
+            "name": "CPU Intel Core i7 10700",
+            "price": 490,
             "stock": 15,
             "description": "2.90GHz Turbo Up To 4.80GHz, 8 Core 16 Thread",
             "id": "394675",
@@ -10,7 +10,7 @@
         },
         "204109": {
             "name": "CPU Intel Core i7 9700K",
-            "price": 10000000,
+            "price": 426,
             "stock": 15,
             "description": "3.6GHz Turbo Up To 4.9GHz, 8 Core 8 Thread",
             "id": "204109",
@@ -18,7 +18,7 @@
         },
         "318306": {
             "name": "CPU Intel Core i5 10400",
-            "price": 7000000,
+            "price": 298,
             "stock": 20,
             "description": "2.90GHz Turbo Up To 4.30GHz, 6 Core 12 Thread",
             "id": "318306",
@@ -28,7 +28,7 @@
             "category_id": "1",
             "id": "307001",
             "name": "Intel Core i5",
-            "price": 3000,
+            "price": 128,
             "stock": 12,
             "description": "Nice CPU"
         }
@@ -36,39 +36,39 @@
     "2": {
         "573558": {
             "name": "Nvidia Quadro K6000",
-            "price": 9400000,
+            "price": 401,
             "stock": 10,
             "description": "12GB GDDR5 PCIe 3.0 x16 GPU",
             "id": "573558",
             "category_id": "2"
         },
         "298799": {
-            "name": "EVGA GeForce RTX 3090 FTW3 Ultra Gaming",
-            "price": 40000000,
+            "name": "EVGA GeForce RTX 3090 Ultra",
+            "price": 1704,
             "stock": 6,
             "description": "24GB GDDR6X, iCX3 Technology, ARGB LED",
             "id": "298799",
             "category_id": "2"
         },
         "494887": {
-            "name": "Thermaltake LCGS AH-380 AIO Liquid Cooled CPU",
-            "price": 48000000,
+            "name": "Thermaltake LCGS AH-380 AIO",
+            "price": 2045,
             "stock": 3,
             "description": "AMD RYZEN 5 3600XT 6-core, RTX 3080",
             "id": "494887",
             "category_id": "2"
         },
         "524100": {
-            "name": "VisionTek Radeon 7750 2GB GDDR5 6M",
-            "price": 6700000,
+            "name": "VisionTek Radeon 7750 2GB",
+            "price": 285,
             "stock": 12,
-            "description": "6x miniDP, 6x miniDP to HDMI Adapters Graphics Card",
+            "description": "6x miniDP to HDMI Adapters Graphics Card",
             "id": "524100",
             "category_id": "2"
         },
         "523870": {
             "name": "MSI Gaming GeForce RTX 2060",
-            "price": 1000000,
+            "price": 43,
             "stock": 9,
             "description": "6GB GDRR6 192-bit HDMI/DP 1710 MHz ",
             "id": "523870",
@@ -78,7 +78,7 @@
     "3": {
         "733722": {
             "name": "Cooler Master Elite V3 PC700 ",
-            "price": 800000,
+            "price": 34,
             "stock": 12,
             "description": "700W, Standard, Non Modular",
             "id": "733722",
@@ -86,7 +86,7 @@
         },
         "407827": {
             "name": "Cooler Master Elite PC600 V3",
-            "price": 800000,
+            "price": 34,
             "stock": 1,
             "description": "600W, Standard, Non Modular",
             "id": "407827",
@@ -94,7 +94,7 @@
         },
         "913155": {
             "name": "Raidmax RX-350XT",
-            "price": 500000,
+            "price": 21,
             "stock": 13,
             "description": "350W, 80 Plus, Non Modular",
             "id": "913155",
@@ -102,7 +102,7 @@
         },
         "153427": {
             "name": "Xigmatek X-Power II 450 EN41954",
-            "price": 600000,
+            "price": 26,
             "stock": 14,
             "description": "400W, 80 Plus, Non Modular",
             "id": "153427",
@@ -110,7 +110,7 @@
         },
         "368420": {
             "name": "Cooler Master MWE 750 White V2",
-            "price": 1450000,
+            "price": 62,
             "stock": 17,
             "description": "750W, 80Plus, Non Modular",
             "id": "368420",
@@ -120,7 +120,7 @@
     "4": {
         "405372": {
             "name": "Ram Corsair Vengeance RGB PRO",
-            "price": 2950000,
+            "price": 126,
             "stock": 10,
             "description": "2x8GB, DDR4, 3200 MHz",
             "id": "405372",
@@ -128,7 +128,7 @@
         },
         "206625": {
             "name": "Ram GSkill TRIDENT Z NEO",
-            "price": 3050000,
+            "price": 130,
             "stock": 30,
             "description": "2X8GB, DDR4, 3600 MHz",
             "id": "206625",
@@ -136,7 +136,7 @@
         },
         "714723": {
             "name": "Ram Corsair Dominator Platinum RGB",
-            "price": 6900000,
+            "price": 294,
             "stock": 8,
             "description": "2x16GB, DDR4, 3200 MHz",
             "id": "714723",
@@ -144,15 +144,15 @@
         },
         "545978": {
             "name": "Ram Adata Spectrix D41",
-            "price": 1050000,
+            "price": 45,
             "stock": 20,
             "description": "8GB, DDR4, 3000MHz, RGB",
             "id": "545978",
             "category_id": "4"
         },
         "804989": {
-            "name": "Ram Samsung ECC Registered Sever Menory",
-            "price": 1050000,
+            "name": "Ram Samsung ECC",
+            "price": 44,
             "stock": 18,
             "description": "32GB, DDR4, 2400T MHz",
             "id": "804989",
@@ -161,40 +161,40 @@
     },
     "5": {
         "967564": {
-            "name": "Mainboard ASROCK H410M-HDV",
-            "price": 1600000,
+            "name": "ASROCK H410M-HDV",
+            "price": 68,
             "stock": 5,
             "description": "Intel H410, LGA 1200, ATX, 2 Ram slots DDR4",
             "id": "967564",
             "category_id": "5"
         },
         "108835": {
-            "name": "Mainboard HUANANZHI X99 - 8M Gaming",
-            "price": 1700000,
+            "name": "HUANANZHI X99 - 8M",
+            "price": 72,
             "stock": 2,
             "description": "Intel X99, LGA 2011-3, ATX, 2 Ram slots DDR3",
             "id": "108835",
             "category_id": "5"
         },
         "594939": {
-            "name": "Mainboard HUANANZHI X99-T8D",
-            "price": 3150000,
+            "name": "HUANANZHI X99-T8D",
+            "price": 134,
             "stock": 1,
             "description": "Intel X99, LGA 2011-3, E-ATX, 8 DDR3 Ram Slots",
             "id": "594939",
             "category_id": "5"
         },
         "373539": {
-            "name": "Mainboard ASUS Z10PE-D16 WS",
-            "price": 2000000,
+            "name": "ASUS Z10PE-D16 WS",
+            "price": 85,
             "stock": 6,
             "description": "Intel C612 PCH, LGA 2011-3 Dual, ATX, 4 Ram Slots",
             "id": "373539",
             "category_id": "5"
         },
         "185889": {
-            "name": "Mainboard ASUS ROG STRIX X570-E GAMING",
-            "price": 4000000,
+            "name": "ASUS ROG STRIX X570-E",
+            "price": 170,
             "stock": 5,
             "description": "AMD X570, AM4, ATX, 4 khe RAM DDR4",
             "id": "185889",
@@ -204,7 +204,7 @@
     "6": {
         "406478": {
             "name": "Case WM-STAR V7",
-            "price": 100000,
+            "price": 4,
             "stock": 12,
             "description": "RGB",
             "id": "406478",
@@ -212,7 +212,7 @@
         },
         "579546": {
             "name": "Aigo ICY T240",
-            "price": 120000,
+            "price": 5,
             "stock": 23,
             "description": "RGB",
             "id": "579546",
@@ -220,7 +220,7 @@
         },
         "761491": {
             "name": "VSP Cooler Master T410i",
-            "price": 450000,
+            "price": 19,
             "stock": 200,
             "description": "Led RGB",
             "id": "761491",
@@ -228,7 +228,7 @@
         },
         "319558": {
             "name": "Corsair H115i Platinum RGB",
-            "price": 600000,
+            "price": 26,
             "stock": 16,
             "description": "Intel 2011/2066",
             "id": "319558",
@@ -236,7 +236,7 @@
         },
         "882652": {
             "name": "Cooler Master ML360L V2 ARGB",
-            "price": 2450000,
+            "price": 105,
             "stock": 4,
             "description": "New SickleFlow 120 RGB fan",
             "id": "882652",
@@ -246,15 +246,15 @@
     "7": {
         "937384": {
             "name": "BenQ - PD2700U",
-            "price": 11700000,
+            "price": 499,
             "stock": 20,
-            "description": "DesignVue 27 inch IPS LED 4K UHD 60Hz",
+            "description": "DesignVue 27 inch4 K UHD 60Hz",
             "id": "937384",
             "category_id": "7"
         },
         "445613": {
             "name": "Samsung - 28 inch",
-            "price": 5800000,
+            "price": 247,
             "stock": 12,
             "description": "ViewFinity UHD IPS AMD FreeSync",
             "id": "445613",
@@ -262,23 +262,23 @@
         },
         "894032": {
             "name": "LG - 27 inch UltraGear UHD",
-            "price": 15200000,
+            "price": 648,
             "stock": 26,
-            "description": "Nano IPS 1ms 144Hz Monitor with NVIDIA G-SYNC",
+            "description": "Nano IPS 1ms 144Hz Monitor",
             "id": "894032",
             "category_id": "7"
         },
         "360869": {
-            "name": "Dell - UltraSharp 27 inch LCD 4K UHD Monitor",
-            "price": 13700000,
+            "name": "Dell - UltraSharp 27 inch LCD 4K UHD",
+            "price": 584,
             "stock": 2,
-            "description": "DisplayPort, USB, HDMI) - Black, Silver",
+            "description": "DisplayPort, USB, HDMI",
             "id": "360869",
             "category_id": "7"
         },
         "448753": {
-            "name": "Samsung - Odyssey G7 28 inch 4K UHD IPS",
-            "price": 18800000,
+            "name": "Samsung - Odyssey G7 28 inch 4K UHD",
+            "price": 801,
             "stock": 4,
             "description": "FreeSync Premium Pro & G-Sync",
             "id": "448753",
@@ -288,7 +288,7 @@
     "8": {
         "235283": {
             "name": "SSD AGI 120GB Sata AI138 New",
-            "price": 450000,
+            "price": 19,
             "stock": 90,
             "description": "None",
             "id": "235283",
@@ -296,7 +296,7 @@
         },
         "171858": {
             "name": "SSD Kingston SA400S37",
-            "price": 850000,
+            "price": 36,
             "stock": 30,
             "description": "A400, 240GB, 2.5 inch, Sata III",
             "id": "171858",
@@ -304,7 +304,7 @@
         },
         "275952": {
             "name": "Gigabyte 480GB Sata 3",
-            "price": 1300000,
+            "price": 55,
             "stock": 6,
             "description": "Capacity: 480GB Size: 2.5 inch",
             "id": "275952",
@@ -312,51 +312,51 @@
         },
         "275123": {
             "name": "SSD Lexar NS100",
-            "price": 400000,
+            "price": 17,
             "stock": 40,
             "description": "128GB, 2.5-Inch, SATA III",
             "id": "275123",
             "category_id": "8"
         },
         "301336": {
-            "name": "SSD Samsung 970 EVO Plus, 500GB, M.2 PCIe NVMe",
-            "price": 2300000,
+            "name": "SSD Samsung 970 EVO Plus, 500GB",
+            "price": 98,
             "stock": 3,
-            "description": "Samsung's premium SSD for professional users",
+            "description": "Samsung's premium SSD ",
             "id": "301336",
             "category_id": "8"
         }
     },
     "9": {
         "461894": {
-            "name": "Dareu EM908 computer mouse",
-            "price": 350000,
+            "name": "Dareu EM908",
+            "price": 15,
             "stock": 40,
             "description": "New 6000DPI gaming sensor eye",
             "id": "461894",
             "category_id": "9"
         },
         "992575": {
-            "name": "Logitech G304 LIGHTSPEED Wireless computer mouse",
-            "price": 900000,
+            "name": "Logitech G304 LIGHTSPEED Wireless",
+            "price": 38,
             "stock": 8,
-            "description": "Resolution: 12000DPI. Maximum speed: 400IPS",
+            "description": "Resolution: 12000DPI. Max speed: 400IPS",
             "id": "992575",
             "category_id": "9"
         },
         "968709": {
-            "name": "GNET LK718 mechanical keyboard",
-            "price": 700000,
+            "name": "GNET LK718",
+            "price": 30,
             "stock": 16,
             "description": "Led keyboard 12 effects, Led border 8 effects.",
             "id": "968709",
             "category_id": "9"
         },
         "224522": {
-            "name": "Fuhlen M87s RGB Red Switch mechanical keyboard",
-            "price": 650000,
+            "name": "Fuhlen M87s RGB Red Switch",
+            "price": 28,
             "stock": 14,
-            "description": "Connection: Wired USB - Black",
+            "description": "Connection: Wired USB",
             "id": "224522",
             "category_id": "9"
         }
