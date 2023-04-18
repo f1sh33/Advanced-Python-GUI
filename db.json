@@ -4,7 +4,7 @@
             "name": "CPU Intel Core i7 10700",
             "price": 490,
             "stock": 15,
-            "description": "2.90GHz Turbo Up To 4.80GHz, 8 Core 16 Thread",
+            "description": "Turbo Up To 4.80GHz, 8 Core 16 Thread",
             "id": "394675",
             "category_id": "1"
         },
@@ -12,7 +12,7 @@
             "name": "CPU Intel Core i7 9700K",
             "price": 426,
             "stock": 15,
-            "description": "3.6GHz Turbo Up To 4.9GHz, 8 Core 8 Thread",
+            "description": "Turbo Up To 4.9GHz, 8 Core 8 Thread",
             "id": "204109",
             "category_id": "1"
         },
@@ -20,7 +20,7 @@
             "name": "CPU Intel Core i5 10400",
             "price": 298,
             "stock": 20,
-            "description": "2.90GHz Turbo Up To 4.30GHz, 6 Core 12 Thread",
+            "description": "Turbo Up To 4.30GHz, 6 Core 12 Thread",
             "id": "318306",
             "category_id": "1"
         },
@@ -119,7 +119,7 @@
     },
     "4": {
         "405372": {
-            "name": "Ram Corsair Vengeance RGB PRO",
+            "name": "Corsair Vengeance RGB PRO",
             "price": 126,
             "stock": 10,
             "description": "2x8GB, DDR4, 3200 MHz",
@@ -127,7 +127,7 @@
             "category_id": "4"
         },
         "206625": {
-            "name": "Ram GSkill TRIDENT Z NEO",
+            "name": "GSkill TRIDENT Z NEO",
             "price": 130,
             "stock": 30,
             "description": "2X8GB, DDR4, 3600 MHz",
@@ -135,7 +135,7 @@
             "category_id": "4"
         },
         "714723": {
-            "name": "Ram Corsair Dominator Platinum RGB",
+            "name": "Corsair Dominator Platinum RGB",
             "price": 294,
             "stock": 8,
             "description": "2x16GB, DDR4, 3200 MHz",
@@ -143,7 +143,7 @@
             "category_id": "4"
         },
         "545978": {
-            "name": "Ram Adata Spectrix D41",
+            "name": "Adata Spectrix D41",
             "price": 45,
             "stock": 20,
             "description": "8GB, DDR4, 3000MHz, RGB",
@@ -151,7 +151,7 @@
             "category_id": "4"
         },
         "804989": {
-            "name": "Ram Samsung ECC",
+            "name": "Samsung ECC",
             "price": 44,
             "stock": 18,
             "description": "32GB, DDR4, 2400T MHz",
@@ -164,7 +164,7 @@
             "name": "ASROCK H410M-HDV",
             "price": 68,
             "stock": 5,
-            "description": "Intel H410, LGA 1200, ATX, 2 Ram slots DDR4",
+            "description": "Intel H410, LGA 1200, 2 Ram DDR4",
             "id": "967564",
             "category_id": "5"
         },
@@ -172,7 +172,7 @@
             "name": "HUANANZHI X99 - 8M",
             "price": 72,
             "stock": 2,
-            "description": "Intel X99, LGA 2011-3, ATX, 2 Ram slots DDR3",
+            "description": "Intel X99, LGA 2011-3, 2 Ram DDR3",
             "id": "108835",
             "category_id": "5"
         },
@@ -180,7 +180,7 @@
             "name": "HUANANZHI X99-T8D",
             "price": 134,
             "stock": 1,
-            "description": "Intel X99, LGA 2011-3, E-ATX, 8 DDR3 Ram Slots",
+            "description": "Intel X99, LGA 2011-3, 3 Ram 8 DDR",
             "id": "594939",
             "category_id": "5"
         },
@@ -188,7 +188,7 @@
             "name": "ASUS Z10PE-D16 WS",
             "price": 85,
             "stock": 6,
-            "description": "Intel C612 PCH, LGA 2011-3 Dual, ATX, 4 Ram Slots",
+            "description": "Intel C612 PCH, LGA 2011-3 Dual, 4 Ram DDR",
             "id": "373539",
             "category_id": "5"
         },
@@ -196,7 +196,7 @@
             "name": "ASUS ROG STRIX X570-E",
             "price": 170,
             "stock": 5,
-            "description": "AMD X570, AM4, ATX, 4 khe RAM DDR4",
+            "description": "AMD X570, AM4, 4 RAM DDR4",
             "id": "185889",
             "category_id": "5"
         }
