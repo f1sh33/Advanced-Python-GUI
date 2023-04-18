@@ -5,9 +5,6 @@ def create_button(parent, name):
                                                    fg_color="transparent", text_color="#FFFFFF", hover_color="#181826", 
                                                    anchor="w", command=(lambda: highlight(parent, name)))
 
-def test(parent):
-    for attribute, value in parent.__dict__.items():
-        print(attribute)
 
 def highlight(parent, name):
     button_attribute_name = "nav_button_" + name

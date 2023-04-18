@@ -1,7 +1,7 @@
 {
     "1": {
         "394675": {
-            "name": "CPU Intel Core i7 10700 NK",
+            "name": "CPU Intel Core i7 10700 NR",
             "price": 11500000,
             "stock": 15,
             "description": "2.90GHz Turbo Up To 4.80GHz, 8 Core 16 Thread",
@@ -230,7 +230,7 @@
             "name": "Corsair H115i Platinum RGB",
             "price": 600000,
             "stock": 16,
-            "description": "Compatible socket Intel 115x, Intel 2011/2066",
+            "description": "Intel 2011/2066",
             "id": "319558",
             "category_id": "6"
         },
