@@ -3,6 +3,10 @@ from operations import create
 
 categories = ["CPU", "GPU", "PSU", "Ram", "Mainboards", "Fans", "Monitors", "SSD", "Peripherals"]
 
+# 1. Create a popup window
+# 2. Submit the data to the create function
+# 3. Reload the page (update the changes)
+
 class CreateWindow(customtkinter.CTkToplevel):
     def __init__(self, ancestor, name, *args, **kwargs):
         super().__init__(*args, **kwargs)

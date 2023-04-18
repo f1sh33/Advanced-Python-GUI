@@ -10,6 +10,11 @@ from components.productPage import ProductFrame
 customtkinter.set_default_color_theme("theme.json")
 categories = ["CPU", "GPU", "PSU", "Ram", "Mainboards", "Fans", "Monitors", "SSD", "Peripherals"]
 
+# 1. Init windows and images
+# 2. Grid navFrame to the left (row 0 column 0)
+# 3. Grid navButtons to navFrame
+# 4. Grid productPages to the right (row 0 column 1)
+
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()

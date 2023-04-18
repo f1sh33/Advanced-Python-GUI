@@ -71,9 +71,6 @@ class Table(customtkinter.CTkFrame):
         
         self.grid_rowconfigure(0, weight=0)
 
-            
-
-
 class Frame(customtkinter.CTkScrollableFrame):
     def __init__(self, master, ancestor, name, **kwargs):
         super().__init__(master, **kwargs)
@@ -81,9 +78,6 @@ class Frame(customtkinter.CTkScrollableFrame):
         self.grid_columnconfigure(index=0, weight=1)
         self.grid_rowconfigure(index=0, weight=0)
         self.grid_rowconfigure(index=1, weight=1)
-
-        self.searchbar = customtkinter.CTkEntry(self, placeholder_text="Search", width=200, height=30)
-        #self.searchbar.grid(row=0, column=0, sticky="w", padx=40)
 
         self.internal = Table(self, ancestor=ancestor, name=name, fg_color="#212134", border_width=2)
         self.internal.grid(row=1, column=0, padx=40, pady=40,sticky="nsew")

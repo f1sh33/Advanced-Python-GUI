@@ -2,6 +2,10 @@ import customtkinter
 import tkinter as tk
 from operations import update
 
+# 1. Create a popup window
+# 2. Submit the data to the update function
+# 3. Reload the page (update the changes)
+
 class EditWindow(customtkinter.CTkToplevel):
     def __init__(self, ancestor, name, data, *args, **kwargs):
         super().__init__(*args, **kwargs)

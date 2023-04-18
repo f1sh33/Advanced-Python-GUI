@@ -1,5 +1,9 @@
 from components import navButton
 
+# 1. Create all the buttons
+# 2. Grid the buttons to navFrame
+# 3. Highlight the first button
+
 def init(parent, categories):
     for index, category in  enumerate(categories):
         attr_name = "nav_button_" + category

@@ -5,6 +5,10 @@ def create_button(parent, name):
                                                    fg_color="transparent", text_color="#FFFFFF", hover_color="#181826", 
                                                    anchor="w", command=(lambda: highlight(parent, name)))
 
+# 1. Change all button to normal color
+# 2. Change the button that was clicked to highlight color
+# 3. Ungrid all pages
+# 4. Grid the page that was clicked
 
 def highlight(parent, name):
     button_attribute_name = "nav_button_" + name

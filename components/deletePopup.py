@@ -3,6 +3,10 @@ from operations import remove
 
 categories = ["CPU", "GPU", "PSU", "Ram", "Mainboards", "Fans", "Monitors", "SSD", "Peripherals"]
 
+# 1. Create a popup window
+# 2. Submit the data to the remove function
+# 3. Reload the page (update the changes)
+
 class DeleteConfirmWindow(customtkinter.CTkToplevel):
     def __init__(self, ancestor, name, id, *args, **kwargs):
         super().__init__(*args, **kwargs)
